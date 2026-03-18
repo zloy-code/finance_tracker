@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Orifjonov Abbosbek
+
 import '../lib/models/transactions.dart';
 import '../lib/services/transaction_service.dart';
 import '../lib/utils/input_helper.dart';
