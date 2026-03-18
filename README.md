@@ -42,4 +42,4 @@ dart run bin/main.dart
 
 
 ### Demo
-![Finance Tracker CLI Demo](assets/demo.png)
+![Finance Tracker CLI Demo](./assets/demo.png)
