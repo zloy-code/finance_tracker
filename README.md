@@ -41,3 +41,5 @@ This CLI app lets you track your income, expenses, and view your balance.
 dart run bin/main.dart
 
 
+### Demo
+![Finance Tracker CLI Demo](assets/demo.png)

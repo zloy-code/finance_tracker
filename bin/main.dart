@@ -34,15 +34,15 @@ void main() {
       case 3:
         int id = readInt("Enter transaction ID to delete: ");
         service.delete(id);
-        print("✅ Transaction deleted (if it existed).");
+        print("\n✅ Transaction deleted (if it existed).\n");
         break;
       case 4:
-        print("Balance: ${service.getBalance()}");
+        print("\nBalance: ${service.getBalance()}\n");
         break;
       case 5:
         return;
       default:
-        print("Invalid choice. Please try again.");
+        print("\nInvalid choice. Please try again.\n");
     }
   }
 }
