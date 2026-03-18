@@ -12,7 +12,20 @@ This CLI app lets you track your income, expenses, and view your balance.
 - Categorize transactions (Food, Rent, Transport, etc.)
 
 ## Project Structure
-<pre> ```text finance_tracker/ ├── bin/ │ └── main.dart # Entry point (CLI) ├── lib/ │ ├── models/ # Data models (Transaction) │ ├── services/ # Business logic (TransactionService) │ └── utils/ # Helper functions (input helpers) ├── pubspec.yaml # Dart dependencies └── README.md # Project overview ``` </pre>
+<pre>  finance_tracker/ 
+├── bin/ 
+│ 
+└── main.dart # Entry point (CLI) 
+├── lib/ 
+│ 
+├── models/ # Data models (Transaction)
+│ 
+├── services/ # Business logic (TransactionService) 
+│ 
+└── utils/  # Helper functions (input helpers) 
+├── pubspec.yaml  # Dart dependencies 
+└── README.md  # Project overview 
+ </pre>
 
 
 
