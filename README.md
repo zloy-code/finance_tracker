@@ -1,29 +1,62 @@
-# Finance Tracker
+# Finance Tracker CLI
 
-## Dart Setup Instructions
+A simple personal finance tracker (ERP-lite) built in **Dart**.  
+This CLI app lets you track your income, expenses, and view your balance.
 
-To set up the Dart environment, follow these instructions:
-1. Install the Dart SDK from the official [Dart site](https://dart.dev/get-dart).
-2. Ensure that you have the latest version by running:
-   ```bash
-   dart --version
-   ```
+## Features
 
-3. Set up your IDE (like VS Code or IntelliJ) for Dart development.
+- Add income and expenses
+- View all transactions
+- Delete transactions
+- View current balance
+- Categorize transactions (Food, Rent, Transport, etc.)
 
 ## Project Structure
-The recommended project structure for the Finance Tracker is as follows:
-```
-finance_tracker/
-├── assets/
-│   └── demo.png
-├── lib/
-│   ├── finance_tracker.dart
-│   └── models/
-├── test/
-│   └── finance_tracker_test.dart
-└── pubspec.yaml
+<pre>  finance_tracker/ 
+├── bin/ 
+│ 
+└── main.dart # Entry point (CLI) 
+├── lib/ 
+│ 
+├── models/ # Data models (Transaction)
+│ 
+├── services/ # Business logic (TransactionService) 
+│ 
+└── utils/  # Helper functions (input helpers) 
+├── pubspec.yaml  # Dart dependencies 
+└── README.md  # Project overview 
+ </pre>
+
+## Installation
+
+1. Make sure you have Dart installed:  
+   [Install Dart](https://dart.dev/get-dart)
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/zloy-code/finance_tracker.git
+   cd finance_tracker
+   ```
+
+3. Get dependencies:
+   ```bash
+   dart pub get
+   ```
+
+## Usage
+
+Run the application:
+```bash
+dart run bin/main.dart
 ```
 
 ## Demo
-![Demo](assets/demo.png)
+![Finance Tracker CLI Demo](./assets/demo.png)
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request.
+
+## License
+
+This project is open source and available under the MIT License.
