@@ -1,45 +1,51 @@
-# Finance Tracker CLI
+# Finance Tracker
 
-A simple personal finance tracker (ERP-lite) built in **Dart**.  
-This CLI app lets you track your income, expenses, and view your balance.
+## Overview
+Finance Tracker is a simple and effective tool designed to help you manage your financial activities effortlessly.
 
 ## Features
-
-- Add income and expenses
-- View all transactions
-- Delete transactions
-- View current balance
-- Categorize transactions (Food, Rent, Transport, etc.)
+- Track income and expenses
+- Generate financial reports
+- Easy to use interface
+- Data export options
 
 ## Project Structure
-<pre>  finance_tracker/ 
-├── bin/ 
-│ 
-└── main.dart # Entry point (CLI) 
-├── lib/ 
-│ 
-├── models/ # Data models (Transaction)
-│ 
-├── services/ # Business logic (TransactionService) 
-│ 
-└── utils/  # Helper functions (input helpers) 
-├── pubspec.yaml  # Dart dependencies 
-└── README.md  # Project overview 
- </pre>
+- `/src` - Contains the source code
+- `/docs` - Documentation files
+- `/tests` - Unit tests
 
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zloy-code/finance_tracker.git
+   cd finance_tracker
+   ```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the application:
+   ```bash
+   npm start
+   ```
 
+## Usage Examples
+- To add a new income entry:
+  ```javascript
+  addIncome({ amount: 1000, source: 'Salary' });
+  ```
+- To view all expenses:
+  ```javascript
+  getAllExpenses();
+  ```
 
+## Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some amazing feature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
-## Usage
-
-1. Make sure you have Dart installed:  
-   [Install Dart](https://dart.dev/get-dart)
-
-2. Run the app:
-
-```bash
-dart run bin/main.dart
-
-
-### Demo
-![Finance Tracker CLI Demo](./assets/demo.png)
+## License
+This project is licensed under the MIT License.
